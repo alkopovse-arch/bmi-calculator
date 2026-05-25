@@ -1,6 +1,6 @@
 :root {
     --bg-color: #eeedff;
-    --primary: #554abf;
+    --primary-color: #554abf;
     --secondary-color: #262060;
     --warning-color: #FDEFD9;
     --normal-color: #E8F3DD;
@@ -11,4 +11,19 @@
 body {
     font-family: var(--primary-font), sans-serif;
     background-color: var(--bg-color);
+}
+header {
+    min-height: 100px;
+    padding: 40px;
+}
+.header__title {
+    color: var(--secondary-color);
+    font-size: 1.875em;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+.header__subtitle {
+    color: var(--primary-color);
+    font-size: 0.9375em;
 }
