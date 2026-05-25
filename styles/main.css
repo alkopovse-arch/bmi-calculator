@@ -1,0 +1,14 @@
+:root {
+    --bg-color: #eeedff;
+    --primary: #554abf;
+    --secondary-color: #262060;
+    --warning-color: #FDEFD9;
+    --normal-color: #E8F3DD;
+    --low-color: #E2F1FC;
+    --primary-font: "DM Sans";
+    --secondary-font: "DM Mono";
+}
+body {
+    font-family: var(--primary-font), sans-serif;
+    background-color: var(--bg-color);
+}
